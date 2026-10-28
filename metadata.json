@@ -1,0 +1,6 @@
+{
+  "name": "KahrabaCalc — حاسبة الكهرباء وتكلفة الأجهزة",
+  "description": "حاسبة استهلاك الكهرباء وتكلفة الأجهزة المنزلية كالمكيف والثلاجة والغسالة مع حساب دقيق لشرائح تعرفة STEG بتونس، سونلغاز بالجزائر، ONEE بالمغرب، وGECOL بليبيا",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
