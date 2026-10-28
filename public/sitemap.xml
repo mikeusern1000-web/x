@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  KahrabaCalc Production Sitemap:
+  Before or immediately after deploying to Vercel, replace "https://YOUR_DOMAIN"
+  with your actual production URL (e.g., https://kahrabacalc.vercel.app or your custom domain).
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://YOUR_DOMAIN/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle glow -->
+  <circle cx="1000" cy="150" r="280" fill="#f59e0b" opacity="0.08" filter="blur(80px)"/>
+  <circle cx="200" cy="500" r="240" fill="#0ea5e9" opacity="0.06" filter="blur(80px)"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(100, 110)">
+    <rect width="96" height="96" rx="24" fill="url(#amberGrad)"/>
+    <path d="M54 16L26 54H48L42 80L70 42H48L54 16Z" fill="#020617"/>
+  </g>
+
+  <!-- Brand Title -->
+  <text x="220" y="155" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">KahrabaCalc</text>
+  <text x="222" y="195" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600">حاسبة استهلاك الطاقة وتكلفة الأجهزة المنزلية</text>
+
+  <!-- Headline in Arabic -->
+  <text x="100" y="320" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="800">احسب فاتورة الكهرباء والغاز بدقة هندسية رسمية</text>
+  <text x="100" y="375" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="400">تونس (STEG) · الجزائر (سونلغاز) · المغرب (ONEE) · ليبيا (GECOL)</text>
+
+  <!-- Country Badges -->
+  <g transform="translate(100, 440)">
+    <!-- Tunisia -->
+    <rect x="0" y="0" width="220" height="64" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="20" y="42" font-size="28">🇹🇳</text>
+    <text x="65" y="40" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="18" font-weight="700">تونس (STEG)</text>
+
+    <!-- Algeria -->
+    <rect x="240" y="0" width="230" height="64" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="260" y="42" font-size="28">🇩🇿</text>
+    <text x="305" y="40" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="18" font-weight="700">الجزائر (سونلغاز)</text>
+
+    <!-- Morocco -->
+    <rect x="490" y="0" width="230" height="64" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="510" y="42" font-size="28">🇲🇦</text>
+    <text x="555" y="40" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="18" font-weight="700">المغرب (ONEE)</text>
+
+    <!-- Libya -->
+    <rect x="740" y="0" width="220" height="64" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="760" y="42" font-size="28">🇱🇾</text>
+    <text x="805" y="40" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="18" font-weight="700">ليبيا (GECOL)</text>
+  </g>
+
+  <!-- Footer bar -->
+  <line x1="100" y1="560" x2="1100" y2="560" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="100" y="595" fill="#64748b" font-family="system-ui, sans-serif" font-size="16">حساب دقيق لشرائح الاستهلاك · المكيف · الثلاجة · الغسالة · أسطوانات وقنينات الغاز</text>
+  <text x="1100" y="595" text-anchor="end" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="16" font-weight="600">2026 Production Edition</text>
+</svg>

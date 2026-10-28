@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# NOTE: Replace 'https://YOUR_DOMAIN' with your actual production domain upon Vercel deployment (e.g. https://kahrabacalc.vercel.app/sitemap.xml or your custom domain)
+Sitemap: https://YOUR_DOMAIN/sitemap.xml
